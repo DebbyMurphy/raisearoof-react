@@ -6,8 +6,11 @@ function Nav() {
     return (
         <nav>
             <Link to ="/">Home</Link>
-            <Link to ="/case">Case</Link>
-            <Link to ="/login">Login</Link>
+            <Link to ="#">How It Works</Link>
+            <Link to ="#">Create Account</Link>
+            <Link to ="/login">Login</Link>           
+            <Link id="makeapledge" to ="/case">Make a Pledge</Link>
+ 
         </nav>
     );
 }

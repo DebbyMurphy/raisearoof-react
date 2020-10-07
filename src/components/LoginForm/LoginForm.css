@@ -1,0 +1,15 @@
+form {
+    border: 5px solid red;
+}
+
+input {
+    border: 5px solid purple;
+}
+
+label {
+    border: 5px solid blue;
+}
+
+button {
+    border: 5px solid yellow;
+}
