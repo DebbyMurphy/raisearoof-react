@@ -50,9 +50,9 @@ function LoginForm() {
             <div>
                 <h1>Login</h1>
             </div>
-            
+
             <div>
-                <p>Login to make a pledge or post a new case on Raise a Roof. Help someone on their journey to regain independance, food and shelter.</p>
+                <p>Login to make a pledge or post a new case on Raise a Roof. Help someone on their journey to regain independence, food and shelter.</p>
             </div>
             
             <div>
