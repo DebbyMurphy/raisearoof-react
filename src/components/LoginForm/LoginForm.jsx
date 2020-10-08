@@ -52,7 +52,7 @@ function LoginForm() {
             </div>
 
             <div>
-                <p>Login to make a pledge or post a new case on Raise a Roof. Help someone on their journey to regain independence, food and shelter.</p>
+                <p id="form-p">Login to make a pledge or post a new case on Raise a Roof. Help someone on their journey to regain independence, food and shelter.</p>
             </div>
             
             <div>

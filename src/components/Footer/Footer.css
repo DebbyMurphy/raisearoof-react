@@ -1,0 +1,18 @@
+/* Background Grey: #F4F3EF */
+/* Background Yellow: #F5C114 */
+/* Background Pink: #F24C4E  */
+/* Text Dark Grey: #3A3A3A */
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    display: flex;
+    background-color: #F24C4E;
+    justify-content: flex-start;
+}
+
+#footer-p {
+    font-size: 12px;
+    margin-left: 20px;
+}

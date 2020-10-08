@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import "./App.css";
+import Footer from './components/Footer/Footer';
 import Nav from "./components/Nav/Nav";
 import CasePage from "./pages/CasePage";
 import HomePage from "./pages/HomePage";
@@ -24,6 +25,8 @@ function App() {
             <HomePage />
           </Route>
         </Switch>
+
+        <Footer />
       </div>
     </Router>
   )
