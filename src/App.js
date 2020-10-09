@@ -27,7 +27,7 @@ function App() {
             <HomePage />
           </Route>
         </Switch>
-          <div style={{ position: 'fixed', bottom: '0' }}>
+          <div>
             <Footer />
           </div>
       </div>
