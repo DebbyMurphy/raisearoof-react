@@ -6,6 +6,7 @@ import Nav from "./components/Nav/Nav";
 import CasePage from "./pages/CasePage";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
+// import { ReactComponent as Logo } from './components/Logo/Logo';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Router>
       <div>
         <Nav />
+        {/* <Logo /> */}
 
         <Switch>
         <Route path="/login">
@@ -25,8 +27,9 @@ function App() {
             <HomePage />
           </Route>
         </Switch>
-
-        <Footer />
+          <div style={{ position: 'fixed', bottom: '0' }}>
+            <Footer />
+          </div>
       </div>
     </Router>
   )
